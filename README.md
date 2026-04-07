@@ -1,16 +1,30 @@
-# React + Vite
+# 📈 CryptoVision Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional cryptocurrency market analysis and alert platform. 
+一个功能完整的加密货币行情与智能监控平台。
 
-Currently, two official plugins are available:
+## ✨ 核心功能 (Features)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **📊 高级专业图表 (Advanced TradingView K-Line)**
+  * 集成 TradingView 核心组件，支持 K 线图平滑缩放与拖拽。
+  * 内置趋势线、斐波那契回撤等专业画图工具。
+  * 支持 1m 到 1w 多种时间周期切换，数据源直连 Binance 币安。
+* **🤖 Gemini AI 智能分析 (AI Market Insights)**
+  * 接入 Google Gemini 2.5 Flash 大语言模型。
+  * 实时生成所选加密资产的基本面、关键支撑/阻力位及交易风险提示。
+* **🚨 实时价格与指标预警系统 (Real-time Alerts)**
+  * 纯前端实现模拟轮询引擎，毫秒级响应。
+  * 支持**价格突破/跌破**触发预警。
+  * 支持**高级技术指标**（RSI超买超卖、MACD金叉死叉）触发预警。
+  * 优美的 UI 弹窗与模拟邮件通知反馈。
 
-## React Compiler
+## 🛠️ 技术栈 (Tech Stack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **前端框架:** React + Vite
+* **样式引擎:** Tailwind CSS
+* **图表库:** TradingView Advanced Widget
+* **AI 驱动:** Google Gemini API
+* **部署:** Vercel 自动化部署
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 在线体验 (Live Demo)
+👉 [https://vercel.com/yanami-sukis-projects/cryptovision/FPy9sjsUQNotuGPttJkLzsspRhoi]
